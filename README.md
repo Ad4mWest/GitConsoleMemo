@@ -128,6 +128,24 @@ mkdir my_project
 cd my_project
 git init
 ```
+## how to make a mermaid scheme
+
+HEAD -- It's a head.
+A commit is the head of everything.
+File statuses:
+<there's an empty line here!>
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% arrow without text for example: 
+  A --> B;
+```
+
+<there's an empty line here!>
+
 These are just some of the features of markdown. Other you can find there: 
 - https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c
 - https://www.markdownguide.org/cheat-sheet/
