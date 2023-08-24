@@ -128,7 +128,7 @@ mkdir my_project
 cd my_project
 git init
 ```
-## how to make a mermaid scheme
+## How to make a mermaid scheme
 
 HEAD -- It's a head.
 A commit is the head of everything.
